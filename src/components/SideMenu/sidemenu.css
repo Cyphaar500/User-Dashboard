@@ -1,0 +1,13 @@
+.SideMenu {
+    padding: 15px 0;
+}
+
+@media screen and (max-width: 450px) {
+    .SideMenu {
+        display: none;
+    }
+}
+
+.SideMenuVertical {
+    height: 80vh;
+}

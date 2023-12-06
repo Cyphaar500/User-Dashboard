@@ -1,0 +1,31 @@
+.AppHeader {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.Name {
+    color: #ff97a9;
+    font-weight: bolder;
+}
+
+
+@media screen and (max-width: 768px) {
+    .AppHeader{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .AppHeader{
+        display: flex;
+        width: 160vw;
+        margin: 0;
+        padding: 8px 20px;
+        justify-content: space-between;
+    }  
+}
